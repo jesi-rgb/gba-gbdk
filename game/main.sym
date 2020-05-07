@@ -1,0 +1,104 @@
+; no$gmb format .sym file
+; Generated automagically by ASxxxx linker V01.75 (SDK 3.0.0)
+; Area: .  .ABS.
+00:0000 s__HEADER
+00:0000 .init
+00:0200 s__CODE
+00:02BE s__HOME
+00:046A s__BASE
+00:053C s__GSINITTAIL
+00:053C s__LIT
+00:053C s__GSINIT
+00:053D s__GSFINAL
+00:C000 .OAM
+00:C0A0 s__DATA
+00:C0A0 s__BSS
+00:C0F9 s__HEAP
+00:C0F9 s__BSEG
+00:C0F9 s__ISEG
+00:C0F9 s__XSEG
+00:C0F9 s__OVERLAY
+00:E000 .STACK
+00:FF80 .refresh_OAM
+; Area: _CODE
+00:0200 _main
+; Area: _HEADER
+00:01D2 _exit
+; Area: _HOME
+00:02BE .set_mode
+00:02CE .remove_VBL
+00:02D4 .remove_LCD
+00:02DA .remove_TIM
+00:02E0 .remove_SIO
+00:02E6 .remove_JOY
+00:02EC .add_VBL
+00:02F2 .add_LCD
+00:02F8 .add_TIM
+00:02FE .add_SIO
+00:0304 .add_JOY
+00:030A .remove_int
+00:032A .add_int
+00:0346 .wait_vbl_done
+00:0346 _wait_vbl_done
+00:035D _display_off
+00:035D .display_off
+00:037E .serial_IO
+00:03AD _mode
+00:03B6 _get_mode
+00:03BB _enable_interrupts
+00:03BD _disable_interrupts
+00:03BF _reset
+00:03BF .reset
+00:03C5 _set_interrupts
+00:03D0 _remove_VBL
+00:03DB _remove_LCD
+00:03E6 _remove_TIM
+00:03F1 _remove_SIO
+00:03FC _remove_JOY
+00:0407 _add_VBL
+00:0412 _add_LCD
+00:041D _add_TIM
+00:0428 _add_SIO
+00:0433 _add_JOY
+00:043E _clock
+00:0447 __printTStates
+00:0448 banked_call
+00:0461 banked_ret
+; Area: _BASE
+00:046A .mv_sprite
+00:0479 _move_sprite
+00:0486 _set_win_data
+00:0486 _set_bkg_data
+00:04D3 _set_sprite_data
+00:0502 .set_sprite_tile
+00:050F _set_sprite_tile
+00:051A .copy_vram
+00:0529 _get_data
+00:0529 _set_data
+; Area: _LIT
+; Area: _GSINIT
+00:053C gsinit
+; Area: _GSINITTAIL
+; Area: _GSFINAL
+; Area: _DATA
+; Area: _BSS
+00:C0A0 __cpu
+00:C0A1 .mode
+00:C0A2 __io_out
+00:C0A3 __io_in
+00:C0A4 __io_status
+00:C0A5 .vbl_done
+00:C0A6 __current_bank
+00:C0A7 _sys_time
+00:C0A7 .sys_time
+00:C0A9 .int_0x40
+00:C0B9 .int_0x48
+00:C0C9 .int_0x50
+00:C0D9 .int_0x58
+00:C0E9 .int_0x60
+; Area: _HEAP
+00:C0F9 _malloc_heap_start
+; Area: _OVERLAY
+; Area: _ISEG
+; Area: _BSEG
+; Area: _XSEG
